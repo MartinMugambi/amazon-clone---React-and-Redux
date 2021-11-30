@@ -1,0 +1,6 @@
+.banner {
+  max-width: 1160px;
+  position: relative;
+  margin: auto;
+  background-image: linear-gradient(360deg, hsl(0, 30%, 20%), hsl(0, 30%, 20%));
+}

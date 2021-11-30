@@ -1,0 +1,50 @@
+.footer {
+  display: grid;
+  background: #232f3e;
+  grid-template-columns: repeat(4, 1fr);
+  color: white;
+  place-content: center;
+  place-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  padding: 10px;
+  width: 100vw;
+}
+
+.footer__know {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.footer__money {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.footer__payment {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.footer__help {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    display: flex;
+    font-size: 0.8rem;
+    gap: 10px;
+  }
+  .footer__money {
+    display: none;
+  }
+  .footer__payment {
+    display: none;
+  }
+}
